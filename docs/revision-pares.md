@@ -1,31 +1,34 @@
-﻿# ACTA DE REVISION POR PARES
+﻿# ACTA DE REVISION ESTATICA ASISTIDA POR IA
 
 ## Datos generales
 
 Proyecto: Evaluacion estatica de un modulo JavaScript
 Archivo revisado: src/descuentos.js
-Rama: revision-pares
-Fecha: Pendiente
-Autor: Pendiente
-Revisor: Pendiente
+Revisor tecnico: ChatGPT (IA)
+Modalidad: Inspeccion estatica asistida
+Fecha: 12 de noviembre de 2026
 
 ## Objetivo
 
-Realizar una inspeccion independiente del codigo
-para identificar defectos que ESLint no detecta.
+Identificar riesgos de logica y validacion que no
+son detectados por las reglas configuradas en ESLint.
 
 ## Observaciones tecnicas
 
-| ID | Observacion del revisor | Evidencia | Severidad | Accion acordada | Estado |
-|---|---|---|---|---|---|
-| RP-01 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
-| RP-02 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
-
-## Decisiones
-
-Pendiente de completar despues de la revision.
+| ID | Observacion | Severidad | Accion propuesta | Estado |
+|---|---|---|---|---|
+| RP-01 | Porcentaje superior a 100 permite continuar el calculo | Alta | Definir validacion del porcentaje | Pendiente |
+| RP-02 | Descuento VIP suma 10 sin regla documentada | Alta | Confirmar beneficio VIP | Pendiente |
+| RP-03 | Precio sin validacion numerica | Alta | Definir entradas permitidas | Pendiente |
+| RP-04 | Posibilidad de total negativo | Media | Confirmar limite del descuento | Pendiente |
 
 ## Conclusion
 
-Pendiente de completar despues de recibir
-las observaciones del revisor.
+La inspeccion asistida por IA identifico cuatro
+riesgos adicionales que no fueron reportados
+por ESLint.
+
+No se realizaron pruebas funcionales.
+
+Esta revision no sustituye una revision humana
+independiente cuando la rubrica la exige.
